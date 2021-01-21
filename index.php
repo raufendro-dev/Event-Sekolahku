@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Rapot Online</title>
+        <title>Event Sekolahku</title>
     </head>
     <body>
     <?php 
