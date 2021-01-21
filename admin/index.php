@@ -16,4 +16,6 @@
 </br>
 <a href="siswa/siswa.php">Data Siswa</a>
 </br>
+<a href="event/event.php">Data Event</a>
+</br>
 <a href = "logout.php">Keluar</a>

@@ -20,3 +20,5 @@
         <input type="date" name="tanggalakhir" placeholder="tanggalakhir">
         <button type="submit" name="submit">Tambah</button>
     </form>
+    </body>
+    </html>

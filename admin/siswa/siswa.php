@@ -24,7 +24,7 @@
 	<br/>
 	<table border="1">
 		<tr>
-			<th>No</th>
+			<th>No.</th>
 			
 			<th>Nama</th>
 			<th>username</th>
@@ -33,12 +33,12 @@
 		</tr>
 		<?php 
 		include '../../koneksi.php';
-		$no = 1;
+		$No = 1;
 		$data = mysqli_query($koneksi,"select * from users where level='siswa'");
 		while($d = mysqli_fetch_array($data)){
 			?>
 			<tr>
-				<td><?php echo $no++; ?></td>
+				<td><?php echo $No++; ?></td>
 				
 				<td><?php echo $d['fullname']; ?></td>
 				<td><?php echo $d['username']; ?></td>
